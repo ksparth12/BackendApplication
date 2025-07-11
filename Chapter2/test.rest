@@ -1,0 +1,23 @@
+### TEST GET / WEBSITE
+
+GET http://localhost:3000
+
+### TEST GET /About WEBSITE
+GET http://localhost:3000/About
+
+
+### TEST GET /api/data WEBSITE
+GET http://localhost:3000/api/data
+
+### TEST Post Req
+
+POST http://localhost:3000/api/data
+Content-Type: application/json
+
+{
+    "name":"Yuvika"
+}
+
+### TEST Deleting the data
+
+DELETE http://localhost:3000/api/data
